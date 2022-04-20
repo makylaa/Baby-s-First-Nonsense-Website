@@ -1,0 +1,110 @@
+/* Here is my lovely little external stylesheet. quite boring to look at by itself */
+
+ 	#closing{position: absolute;
+	right: 40pt;}
+
+	.theLinks{position: relative;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	}
+	
+	.theLinks a {display: block;
+	font-size: 25pt;
+	font-weight: bold;
+	}
+	
+	#navig {position: fixed;
+	width: 0;
+	height: 60%;
+	z-index: 1;
+	overflow-x: hidden;
+	background-color: #70e000;
+	opacity: 0.9;
+	transition: 1s;
+	}
+	
+
+
+body{background-color:#edf2f4;
+	color:#003049;
+	font-family: sans-serif;
+}
+
+
+
+.title{position:absolute;
+	top: 10px;
+	width: 908px;
+	border-style:double;
+	border-width: 5px;
+	padding: 1px;
+	font-size: 10pt;
+	text-align: center;
+	font-family: system-ui;
+	text-decoration: underline;
+}
+
+.headings{position:absolute;
+	top: 80px;
+	border-style: solid;
+	padding: 3px;
+	text-align: center;
+}
+
+.first{position:absolute;
+	top: 150px;
+	width: 390px;
+	padding: 3px;
+	font-size: 12pt;
+	font-weight: none;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.second{position:absolute;
+	top: 530px;
+	width: 900px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.third{position:absolute;
+	top: 670px;
+	width: 900px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.picture{position:absolute;
+	top: 150px;
+	left: 420px;
+	width: 490px;
+}
+	
+.References{position:absolute;
+	top: 825px;
+	width: 800px;
+	padding: 5px;
+	width: 900px;
+	
+}
+
+
+.buttons{position:absolute;
+	top:1250px;
+}
+
+.quiz{position:absolute;
+	top: 1100px;
+}
+
+#video{position:absolute;
+	top: 1300px;	
+}
+
+#slideshoes{position:absolute;
+	top: 1800px;
+}
